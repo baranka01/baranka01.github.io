@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'bignoodletitling';
+    src: url('font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .topheader {
     z-index: 99999;
     position: fixed;
@@ -17,6 +24,7 @@ body {
     display: block;
     position: absolute;
     bottom: auto;
+    font-family: 'bignoodletitling';
 }
 
 .logo>a>img {
@@ -35,7 +43,7 @@ body {
     font-size: 20px;
     line-height: initial;
 }
-.banner{
+.banner {
     background: url(images/slider.jpg) #696969;
     background-blend-mode: multiply,normal;
     display: flex;
@@ -45,4 +53,60 @@ body {
     width: 100%;
     background-size: cover;
     text-align: center;
+    font-family: 'bignoodletitling';
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 38px;
+    font-family: 'bignoodletitling';
+}
+
+.head_white_content span {
+display: inline-block;
+background-color: #f15324;
+width: 153px;
+height: 3px;
+}
+
+.head_white_content {
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+.head_white_content p {
+    padding: 20px 90 px 0 px;
+    color: #696969;
+}
+
+.aboutus {
+    margin-bottom: 90px;
+}
+
+.advantage {
+    text-align: center;
+    width: 100%;
+    background: #ebebeb;
+    padding: 30px;
+    margin: 3% 0;
+}
+
+.advantage span {
+    font-size: 60px;
+    color: #f4511e;
+}
+
+.advantage h4 {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    color: dimgray;
+    padding: 25 px 0 13px;
+}
+
+.advantage p {
+    color: dimgray;
+    font-size: 14px;
+    line-height: 100%;
 }
