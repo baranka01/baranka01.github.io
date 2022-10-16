@@ -21,10 +21,10 @@ body {
 }
 
 .logo {
+    font-family: 'bignoodletitling';
     display: block;
     position: absolute;
     bottom: auto;
-    font-family: 'bignoodletitling';
 }
 
 .logo>a>img {
@@ -43,17 +43,48 @@ body {
     font-size: 20px;
     line-height: initial;
 }
+
+ul {
+    list-style: none;
+}
+
 .banner {
+    font-family: 'bignoodletitling';
     background: url(images/slider.jpg) #696969;
-    background-blend-mode: multiply,normal;
+    background-blend-mode: multiply, normal;
     display: flex;
     color: #d6d5d5;
     align-items: center;
-    min-height: 650px;
+    min-height: 100vh;
+    /*В методичке иначе, но так правильнее. vh - это проценты высоты монитора. Следовательно 100vh - это вся высота монитора.*/
     width: 100%;
     background-size: cover;
     text-align: center;
-    font-family: 'bignoodletitling';
+}
+
+.banner h2 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 2rem;
+}
+
+.scrolldown {
+    position: absolute;
+    left: calc(50% - 52px);
+    margin-top: 15%;
+}
+
+.scrolldown img {
+    margin-bottom: 20px;
+}
+
+.scrolldown p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 h3 {
@@ -63,10 +94,10 @@ h3 {
 }
 
 .head_white_content span {
-display: inline-block;
-background-color: #f15324;
-width: 153px;
-height: 3px;
+    display: inline-block;
+    background-color: #f15324;
+    width: 153px;
+    height: 3px;
 }
 
 .head_white_content {
@@ -74,8 +105,9 @@ height: 3px;
     text-align: center;
     width: 100%;
 }
+
 .head_white_content p {
-    padding: 20px 90 px 0 px;
+    padding: 20px 90px 0px;
     color: #696969;
 }
 
@@ -89,6 +121,7 @@ height: 3px;
     background: #ebebeb;
     padding: 30px;
     margin: 3% 0;
+    min-height: 260px;
 }
 
 .advantage span {
@@ -97,16 +130,16 @@ height: 3px;
 }
 
 .advantage h4 {
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 18px;
     letter-spacing: 0.25px;
-    color: dimgray;
-    padding: 25 px 0 13px;
+    color: #707070;
+    padding: 25px 0 13px;
 }
 
 .advantage p {
-    color: dimgray;
+    color: #707070;
     font-size: 14px;
     line-height: 100%;
 }
