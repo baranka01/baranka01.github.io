@@ -1,145 +1,183 @@
 @font-face {
-    font-family: 'bignoodletitling';
-    src: url('font/bignoodletitling.ttf');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "bignoodletitling";
+  src: url("font/bignoodletitling.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .topheader {
-    z-index: 99999;
-    position: fixed;
-    width: 100%;
-    background: white;
-    height: 140px;
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  background: white;
+  height: 140px;
 }
 
 body {
-    font-size: 14px;
-    line-height: 100%;
-    font-weight: 300;
-    color: #696969;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 300;
+  color: #696969;
 }
 
 .logo {
-    font-family: 'bignoodletitling';
-    display: block;
-    position: absolute;
-    bottom: auto;
+  font-family: "bignoodletitling";
+  display: block;
+  position: absolute;
+  bottom: auto;
 }
 
-.logo>a>img {
-    margin-top: -10px;
-    padding-right: 10px;
-    height: 60px;
+.logo > a > img {
+  margin-top: -10px;
+  padding-right: 10px;
+  height: 60px;
 }
 
-.logo>a {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    width: 70%;
-    color: #696969;
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: initial;
+.logo > a {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  color: #696969;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: initial;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .banner {
-    font-family: 'bignoodletitling';
-    background: url(images/slider.jpg) #696969;
-    background-blend-mode: multiply, normal;
-    display: flex;
-    color: #d6d5d5;
-    align-items: center;
-    min-height: 100vh;
-    /*В методичке иначе, но так правильнее. vh - это проценты высоты монитора. Следовательно 100vh - это вся высота монитора.*/
-    width: 100%;
-    background-size: cover;
-    text-align: center;
+  font-family: "bignoodletitling";
+  background: url(images/slider.jpg) #696969;
+  background-blend-mode: multiply, normal;
+  display: flex;
+  color: #d6d5d5;
+  align-items: center;
+  min-height: 100vh;
+  /*В методичке иначе, но так правильнее. vh - это проценты высоты монитора. Следовательно 100vh - это вся высота монитора.*/
+  width: 100%;
+  background-size: cover;
+  text-align: center;
 }
 
 .banner h2 {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .banner p {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .scrolldown {
-    position: absolute;
-    left: calc(50% - 52px);
-    margin-top: 15%;
+  position: absolute;
+  left: calc(50% - 52px);
+  margin-top: 15%;
 }
 
 .scrolldown img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .scrolldown p {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 h3 {
-    text-transform: uppercase;
-    font-size: 38px;
-    font-family: 'bignoodletitling';
+  text-transform: uppercase;
+  font-size: 38px;
+  font-family: "bignoodletitling";
 }
 
 .head_white_content span {
-    display: inline-block;
-    background-color: #f15324;
-    width: 153px;
-    height: 3px;
+  display: inline-block;
+  background-color: #f15324;
+  width: 153px;
+  height: 3px;
 }
 
 .head_white_content {
-    padding: 5%;
-    text-align: center;
-    width: 100%;
+  padding: 5%;
+  text-align: center;
+  width: 100%;
 }
 
 .head_white_content p {
-    padding: 20px 90px 0px;
-    color: #696969;
+  padding: 20px 90px 0px;
+  color: #696969;
 }
 
 .aboutus {
-    margin-bottom: 90px;
+  margin-bottom: 90px;
 }
 
 .advantage {
-    text-align: center;
-    width: 100%;
-    background: #ebebeb;
-    padding: 30px;
-    margin: 3% 0;
-    min-height: 260px;
+  text-align: center;
+  width: 100%;
+  background: #ebebeb;
+  padding: 30px;
+  margin: 3% 0;
+  min-height: 260px;
 }
 
 .advantage span {
-    font-size: 60px;
-    color: #f4511e;
+  font-size: 60px;
+  color: #f4511e;
 }
 
 .advantage h4 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.25px;
-    color: #707070;
-    padding: 25px 0 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.25px;
+  color: #707070;
+  padding: 25px 0 13px;
 }
 
 .advantage p {
-    color: #707070;
-    font-size: 14px;
-    line-height: 100%;
+  color: #707070;
+  font-size: 14px;
+  line-height: 100%;
+}
+.somefutures, .price {
+  background-color: #171f23;
+  text-align: center;
+  color: #f6f6f6;
+  padding: 60px;
+  display: block;
+}
+h4 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+.head_black_content {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.head_black_content span {
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  margin: 25px auto 0;
+  background: #404040;
+}
+.numeral > div > span {
+  font-size: 60px;
+  color: #ff7062;
+}
+.numeral > div > p {
+  margin: 30px 0;
+  font-size: 14px;
+}
+.numeral > div > h5 {
+  font-size: 35px;
+  font-weight: 280;
+}
+.addit_info{
+    margin: 20px 5px;
+
 }
